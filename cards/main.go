@@ -3,9 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	card := newCard
-	//makes go infer type. only using colon equals syntax when defining a new variable.
-	fmt.Println(card)
+	cards := []string{"Ace of Diamonds", newCard()}
+	cards = append(cards, "Six of Spades")
+
+	for i, card := range cards {
+		fmt.Println(i, card)
+	}
 }
 
 func newCard() string {
