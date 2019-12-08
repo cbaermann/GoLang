@@ -1,13 +1,10 @@
 package main
 
-import "fmt"
-
 //:= initializing and assigning values
 
 func main() {
 	cards := newDeck()
-
-	fmt.Println(cards.toString())
+	cards.saveToFile("my_cards")
 
 }
 
