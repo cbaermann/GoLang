@@ -19,7 +19,7 @@ func newDeck() deck {
 	cards := deck{}
 
 	cardSuits := []string{"Spades", "Hearts", "Diamonds", "Clubs"}
-	cardValues := []string{"Ace", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"}
+	cardValues := []string{"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"}
 	//use underscore when not using i or j or any var indicator in append/return ect. tells go essentialy that you know you're not using them.
 	for _, suit := range cardSuits {
 		for _, value := range cardValues {
