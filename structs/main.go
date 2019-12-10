@@ -24,8 +24,8 @@ func main() {
 	}
 	// %+v shows the key within the scruct
 	// & is an operator. gives access to where alex value is.
-	alexPointer := &alex
-	alexPointer.updateName("Alexander")
+	// alexPointer := &alex
+	alex.updateName("Alexander")
 	alex.print()
 }
 
