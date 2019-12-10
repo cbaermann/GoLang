@@ -17,6 +17,7 @@ func main() {
 }
 
 func printMap(c map[string]string) {
+	//for key, value in range of colors
 	for color, hex := range c {
 		fmt.Println("Hex code for", color, "is", hex)
 	}
