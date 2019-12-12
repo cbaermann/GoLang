@@ -1,5 +1,8 @@
 package main
 
+//interfaces are not generic types
+//interfaces are 'implicit'
+
 import "fmt"
 
 //calls all getGreeting() of type string
